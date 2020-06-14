@@ -6,7 +6,7 @@ const Child = (props)=> {
     
     return (
         <div>
-            <h2> This is 2nd Child using CounterContext </h2>
+            <h2> This is 1st Child using CounterContext </h2>
             <h3> Counter value is {counterValue} </h3>\
             <button onClick = {()=> {counterValue[1](++counterValue[0])}}>Increment Context</button>
         </div>
